@@ -1,6 +1,22 @@
-*.iml
+# Gradle files
 .gradle
+*.gradle
+.gradle/**
+
+# Local settings
 /local.properties
+local.properties
+/.idea/
+/*.iml/
+*.iml
+
+# Android Studio & IntelliJ project-specific
+/.vscode/
+/build/
+/build
+/captures
+.navigation/
+*.log
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -8,8 +24,6 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
 .externalNativeBuild
 .cxx
-local.properties
+
